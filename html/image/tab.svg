@@ -1,0 +1,29 @@
+<svg width="1880" height="1080" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path id="svg_13" d="m584.86225,73.31227l1539.61567,0l0,856.93829l-1539.61567,0l0,-856.93829z" transform="rotate(65, 1354.67, 501.781)" opacity="undefined" fill="url(#svg_22)"/>
+  <path id="svg_16" d="m-508.55987,210.56462l1486.09412,0l0,856.93829l-1486.09412,0l0,-856.93829z" transform="rotate(65, 234.487, 639.034)" opacity="undefined" fill="url(#svg_23)"/>
+  <rect transform="rotate(65, 1907.46, 131.234)" id="svg_24" height="145.95325" width="490.95018" y="58.25744" x="1661.98322" fill="url(#svg_25)"/>
+  <line id="svg_26" y2="859.99967" x2="973.99951" y1="97.99985" x1="465.99963" fill="none"/>
+  <line transform="rotate(65, 647.853, 467.949)" stroke="#fc5e1d" stroke-width="5" id="svg_27" y2="467.94885" x2="124.07592" y1="467.94885" x1="1171.63053" fill="none"/>
+  <line transform="rotate(65, 927.853, 635.949)" stroke="#fc5e1d" stroke-width="5" id="svg_28" y2="635.9488" x2="404.07586" y1="635.9488" x1="1451.63047" fill="none"/>
+  <line transform="rotate(65, 1671.71, 139.287)" stroke="#fc5e1d" stroke-width="5" id="svg_29" y2="139.28662" x2="1311.86502" y1="139.28662" x1="2031.56368" fill="none"/>
+  <line transform="rotate(65, 1923.71, 361.287)" stroke="#fc5e1d" stroke-width="5" id="svg_30" y2="361.28657" x2="1563.86496" y1="361.28657" x1="2283.56362" fill="none"/>
+  <rect transform="rotate(65, 505, 285.736)" id="svg_31" height="250" width="250" y="160.73642" x="379.99998" stroke-width="5" fill="#fff010"/>
+  <rect transform="rotate(65, 1016, 754.736)" id="svg_32" height="200" width="200" y="654.7363" x="915.99985" stroke-width="5" fill="#fff010"/>
+ </g>
+ <defs>
+  <linearGradient spreadMethod="pad" y2="0" x2="0" y1="1" x1="0" id="svg_22">
+   <stop stop-opacity="0.98828" offset="0" stop-color="#fe631d"/>
+   <stop stop-opacity="0.98828" offset="1" stop-color="#ff8d2a"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="0" y1="1" x1="0" id="svg_23">
+   <stop stop-opacity="0.99219" offset="0" stop-color="#f8551a"/>
+   <stop stop-opacity="0.99219" offset="1" stop-color="#fe5d19"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0" x2="0" y1="1" x1="0" id="svg_25">
+   <stop stop-opacity="0.98047" offset="0" stop-color="#ff8d2a"/>
+   <stop stop-opacity="0.98438" offset="1" stop-color="#ffa936"/>
+  </linearGradient>
+ </defs>
+</svg>

@@ -1,0 +1,66 @@
+.index_tab{
+    
+    /* background-image: linear-gradient(to top right, #FB5517 40%, #FEA934 60%); */
+    background-image: url('../image/tab.svg');
+    background-size:cover;
+
+    border-radius: 35px;
+    height: 900px;
+    width: 80%;
+    margin: 30px auto;
+    
+}
+.index_info_tab{
+    float: left;
+    width: 60%;
+}
+.head_image{
+    margin-top: 5%;
+    text-align: center;
+}
+.i_say{
+    text-align: center;
+    margin-top: 90px;
+    font-family: 黑体;
+    text-shadow: 1px 1px 2px #FB5517;
+    font-size: 36px;
+    color: #FEFAF0;
+    margin-bottom: 230px;
+}
+.name{
+    float: right;
+    height: 100%;
+    width: 30%;
+}
+.index_M{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FEFAF0;
+    height: 148px;
+    width: 148px;
+    margin-top: 6%;
+    margin-left: 1%;
+    line-height: 130px;
+    color: #FB5517;
+    font-size: 160px;
+}
+.index_i{
+    font-family: 'Times New Roman', Times, serif;
+    color: #FEFAF0;
+    
+    margin-top: 7px;
+    margin-left: 1%;
+    line-height: 100px;
+    font-size: 135px;
+}
+.index_E{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FEFAF0;
+    height: 178px;
+    width: 178px;
+    margin-top: -27px;
+    margin-left: 6%;
+    line-height: 170px;
+    color: #FB5517;
+    text-indent: 15px;
+    font-size: 240px;
+}

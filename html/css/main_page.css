@@ -1,0 +1,87 @@
+body {
+    /* background-color: #FEFAF0; */
+    background-image: url('../image/bkg.svg');
+    background-attachment: fixed;
+}
+.header{
+    height: 300px;
+    width: 80%;
+    /* background-image: linear-gradient(to top right, #FB5517, #FEA934); */
+    background-image: url('../image/tab.svg');
+    background-size:100% ;
+    margin: 0 auto;
+    border-radius: 35px;
+}
+.title{
+    font-size: 140px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title_E{
+    display: inline-block;
+    background-color: #FEFAF0;
+    height: 155px;
+    width: 155px;
+    text-indent: 15px;
+    margin-top: 20px;
+    line-height: 150px;
+    color: #FB5517;
+    font-size: 200px;
+}
+.second_title{
+    font: 25px 微软雅黑;
+    font-style: italic;
+    text-align: right;
+    margin-right: 3%;
+    color: #FEFAF0;
+}
+.body{
+    width: 80%;
+    height: auto;
+    background-color: rgba(254, 169, 52, 0.3);
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 35px;
+}
+.text{
+    width: 90%;
+    min-height: 300px;
+    
+    margin: auto ;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+.text_title{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.markdown{
+    p{
+        color: #441600;
+    }
+    pre{
+        font-size: larger
+        
+    }
+}
+
+.hr-solid-content{
+    color: rgba(230, 119, 22, 0.7);
+    border: 0;
+    font-size: 18px;
+    padding: 1em 0;
+    position: relative;
+}
+.hr-solid-content::before {
+    content: attr(data-content);
+    position: absolute;
+    padding: 0 1ch;
+    line-height: 1px;
+    border: solid #ff48009c;
+    border-width: 0 99vw;
+    width: fit-content;
+    /* for IE浏览器 */
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+}
