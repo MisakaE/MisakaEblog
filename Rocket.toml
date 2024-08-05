@@ -1,9 +1,9 @@
 [global]
 port = 80
-secret_key = "bpFXUR6qChH9pQ51Qg72nCqwBx3JAdc2+cyCvspOrmY5Osn2uR2o5dJJz2I7mB0jCc/E5/Ou3DnPdwJDZYr2Lw=="
+secret_key = ""
 [global.limits]
-forms = 130031072
-data-form = 43234244
-string = 342423243
-form = 3233333
+forms = 130000000
+data-form = 130000000
+string = 130000000
+form = 130000000
 

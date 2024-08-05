@@ -1,0 +1,15 @@
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    let ls = document.getElementsByClassName("editormd-tex");
+    for (let i = 0; i < ls.length; i++) {
+        katex.render(ls[i].textContent, ls[i], {
+            throwOnError: false
+        });
+    }
+</script>
+
+</html>

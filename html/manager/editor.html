@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./editormd/editormd.min.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="./editormd/css/editormd.css" />
+    <form action="/editor/new" method="post">
+
+        <div class="editormd" id="editormd">
+            <textarea class="editormd-markdown-textarea" name="markdowncode"></textarea>
+            <textarea class="editormd-html-textarea" name="htmlcode"></textarea>
+        </div>
+        
+         <div style="margin-left: 10%;">
+            Title:<input type="text" name="title" style="width: 300px;height: 20px;">
+            
+            Group:<input type="text" name="group" style="width: 300px;height: 20px;">
+            
+            Token:<input type="password" name="token" style="width: 300px;height: 20px;">
+
+            <select name="mainclass" style="width: 200px;height: 30px;" >
+				<option value="算法">算法</option>
+				<option value="题解">题解</option>
+				<option value="游记">游记</option>
+				<option value="随笔">随笔</option>
+				<option value="技术">技术</option>
+            <input type="submit" value="提交" style="height: 25px; width: 80px;margin-left: 15px;margin-top: 20px;">
+        </div> 
+    </form>
+    
+</body>
+<script type="text/javascript">
+    $(function () {
+        let testEditor = editormd("editormd", {
+            width: "90%",
+            height: 700,
+            saveHTMLToTextarea: true,
+            path: "editormd/lib/",
+            tex: true,
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,41 @@
+a{
+    text-decoration-line: none;
+}
+.class_tab{
+    height: 480px;
+    width: 35%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 115px;
+}
+.class_title{
+    font: 50px sans-serif;
+    color: #fff;
+    text-align: left;
+    text-indent: 5%;
+    height: 80px;
+    background-image: url('../image/class_tab.svg');
+    background-size:cover;
+    border-radius: 15px;
+}
+.class_body{
+    height: 390px;
+    margin-top: 10px;
+    overflow-y: scroll;
+    scrollbar-color: #FB5517 #ffffff00;
+    box-shadow: 0px 0px 117px -31px #f9974c inset;
+    border-radius: 18px;
+    border: 1px solid #d7cdcd
+}
+.class_card{
+    height: 30px;
+    color: white;
+    font: 20px sans-serif;
+    overflow-x: hidden;
+    width: 80%;
+    text-indent: 5%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 18px;
+    background-color: #f9974c;
+}

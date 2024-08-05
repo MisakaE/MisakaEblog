@@ -1,0 +1,28 @@
+.about_me {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.school {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 黑体;
+    text-shadow: 1px 1px 2px #FB5517;
+    font-size: 36px;
+    color: #FEFAF0;
+}
+.commu{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 黑体;
+    font-size: 20px;
+    color: #FEFAF0;
+
+}
+.commu a{
+    text-decoration-line: none;
+    color: #FEFAF0;
+}
